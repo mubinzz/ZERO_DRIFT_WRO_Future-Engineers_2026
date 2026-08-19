@@ -1,0 +1,65 @@
+{
+  "servo_center": 78,
+  "servo_left_max": 32,
+  "servo_right_max": 125,
+  "motor_deadzone": 37,
+  "encoder_mm_per_tick": 0.14182720718591182,
+  "camera_red_hsv": {
+    "lower": [
+      162,
+      153,
+      64
+    ],
+    "upper": [
+      179,
+      255,
+      255
+    ]
+  },
+  "camera_green_hsv": {
+    "lower": [
+      53,
+      36,
+      18
+    ],
+    "upper": [
+      86,
+      255,
+      255
+    ]
+  },
+  "camera_hfov_deg": 66.94073019676081,
+  "camera_angle_offset_deg": -2.099196709032773,
+  "camera_offset_m": {
+    "x": 0.0,
+    "y": 0.1
+  },
+  "open_challenge": {
+    "speed": 210,
+    "kp": 3.0,
+    "kd": 0.3,
+    "smoothing_alpha": 0.4,
+    "max_angle_change_per_sec": 80,
+    "front_trigger_m": 0.5,
+    "front_confirm_frames": 4,
+    "target_yaw_change_deg": 65,
+    "target_gap_m": 0.45,
+    "max_wall_distance_m": 1.05,
+    "max_error_m": 0.8,
+    "max_turn_seconds": 3.5,
+    "finish_stop_distance_mm": 250,
+    "round_timeout_seconds": 175
+  },
+  "pillar_avoider": {
+    "margin_m": 0.15,
+    "trigger_distance_m": 0.75,
+    "confirm_frames": 3,
+    "max_side_angle_deg": 55
+  },
+  "robot_dimensions": {
+    "length_m": 0.25,
+    "width_m": 0.14,
+    "lidar_offset_front_m": 0.11,
+    "lidar_offset_rear_m": 0.14
+  }
+}
